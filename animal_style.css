@@ -1,0 +1,33 @@
+table, th, td {
+    border: 2px solid black;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+#hare_h {
+    color: brown;
+}
+
+#hare_a {
+    color: blue;
+}
+
+#hare_r {
+    color: green;
+}
+
+#hare_e {
+    color: orange;
+}
+
+#hare_attribution {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .8em;
+}
