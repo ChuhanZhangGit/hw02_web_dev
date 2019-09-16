@@ -1,0 +1,30 @@
+
+#GUI {
+    width: 500px;
+    height: 300px;
+    border: 3px solid grey;
+    padding: 3px;
+}
+
+#display {
+    text-align: right;
+    font-size: 2em;
+    width: 99%;
+    height: 100%;
+    border: 3px solid black;
+}
+
+#buttons{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+#buttons button {
+    font-size: 2em;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    color: white;
+}
+

@@ -3,13 +3,103 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc_style.css">
+    <link rel="stylesheet" href="general_style.css">
+
 </head>
 
 <body>
-
-    <script src="" async defer></script>
+    <nav>
+        <a href="index.html">Home Page</a> |
+        <a href="animal.html">Hare</a>
+    </nav>
+    <h1>
+        Four Function Calculator
+    </h1>
+    <table id="GUI">
+        <tr>
+            <td>
+                <div id="display">
+                    0
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table id="buttons">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button class="number">7</button>
+                            </td>
+                            <td>
+                                <button class="number">8</button>
+                            </td>
+                            <td>
+                                <button class="number">9</button>
+                            </td>
+                            <td>
+                                <button id="plus">+=</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="number">4</button>
+                            </td>
+                            <td>
+                                <button class="number">5</button>
+                            </td>
+                            <td>
+                                <button class="number">6</button>
+                            </td>
+                            <td><button id="minus">-</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="number">1</button>
+                            </td>
+                            <td>
+                                <button class="number">2</button>
+                            </td>
+                            <td><button class="number">3</button>
+                            </td>
+                            <td><button id="multiply">*</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button id="clear">C</button>
+                            </td>
+                            <td>
+                                <button class="number">0</button>
+                            </td>
+                            <td>
+                                <button class="number">.</button>
+                            </td>
+                            <td>
+                                <button id="divide">/</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <p>
+        Instruction:
+        <ul>
+            <li>
+                C Button will clear current screen and also clear number entered before operator.
+            </li>
+            <li>
+                For convenience and fast entry, not only "+=" button but all other operator buttons will automatically
+                display result of previous calculation when available.
+            </li>
+        </ul>
+    </p>
+    <script src="calc_js.js" async defer></script>
 </body>
 
 </html>
