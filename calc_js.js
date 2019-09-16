@@ -1,3 +1,6 @@
+/*This JS calculator implement support operator chaining that is when
+entered 4 * 2, no matter which operator pressed nexted the result of 4 * 2 will be displayed on screen first and number entered next will apply to the result.
+ */
 (function () {
     "use strict";
 
