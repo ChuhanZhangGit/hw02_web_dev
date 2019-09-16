@@ -2,4 +2,4 @@
 HTML, CSS practice, Basic calulator using JS
 
 ## Website
-[Website link](hw02.chuhandev.com)
+[Website link](http://hw02.chuhandev.com)
