@@ -93,7 +93,7 @@
         // Attach number button listener
         for (var i = 0; i < btns.length; i++) {
             (function () {
-                let button = btns[i];
+                var button = btns[i];
                 button.addEventListener("click", function () {
                     onNumPress(button.innerText)
                 }, false);
